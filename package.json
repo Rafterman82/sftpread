@@ -5,6 +5,9 @@
   "main": "app.js",
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "errorhandler": "^1.5.1",

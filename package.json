@@ -1,0 +1,16 @@
+{
+  "name": "ftpread",
+  "version": "1.0.0",
+  "description": "Simple node app to read ftp file names",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "require": "^2.4.20",
+    "ssh2-sftp-client": "^4.2.3"
+  }
+}

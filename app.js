@@ -81,6 +81,7 @@ app.get('/readFtpFolder/:enviro/:interface/:folder', function(req, res) {
 
 
 	}).catch(err => {
+		sftp.end();
 		console.log(err, 'catch error');
 	});
 

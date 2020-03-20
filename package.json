@@ -5,6 +5,9 @@
   "main": "app.js",
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "13.10.1"
+  },
   "scripts": {
     "start": "node app.js"
   },
@@ -12,8 +15,8 @@
     "body-parser": "^1.19.0",
     "errorhandler": "^1.5.1",
     "express": "^4.17.1",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "require": "^2.4.20",
-    "ssh2-sftp-client": "^4.2.3"
+    "ssh2-sftp-client": "^5.1.2"
   }
 }
